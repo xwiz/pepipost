@@ -49,8 +49,8 @@ class Pepipost
 		$this->apiKey = Config::get('pepipost::api_key');
 		$this->from = Config::get('pepipost::from', Config::get('mail.from'));
 		$this->replyTo = $this->from['address'];
-		$this->clickTrack = Config::get('pepipost::clickTrack', false);
-		$this->openTrack = Config::get('pepipost::openTrack', true);
+		$this->clickTrack = Config::get('pepipost::click_track', false);
+		$this->openTrack = Config::get('pepipost::open_track', true);
 		$this->unsubscribe = Config::get('pepipost::unsubscribe', false);
 		$this->footer = Config::get('pepipost::footer', false);
 

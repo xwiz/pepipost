@@ -24,4 +24,25 @@ return array(
 	 *
 	 */
 	'api_key' => '',
+	
+	/**
+	 * Track opening of mails
+	 */
+	'open_track' => false,
+	
+	/**
+	 * Track clicking of mails
+	 */
+	'click_track' => true,
+	
+	/**
+	 * Enable unsubscribe from mails
+	 */
+	'unsubscribe' => true,
+	
+	/**
+	 * Add pepipost footer
+	 */
+	'footer' => false,
+
 );
