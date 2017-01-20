@@ -1,0 +1,24 @@
+{
+    "name": "xwiz/pepipost",
+    "description": "Laravel 4.2 package for Pepipost",
+    "authors": [
+        {
+            "name": "Chibueze Opata",
+            "email": "opatachibueze@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.*",
+		"pepipost/pepipost-sdk-php": "v1.0.1"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Xwiz\\Pepipost\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
